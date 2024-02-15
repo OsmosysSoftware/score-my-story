@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2018",        // Set a target ECMAScript version
+    "module": "commonjs",      // Set module system
+    "outDir": "./dist",        // Set output directory for compiled files
+    "rootDir": "./src",        // Set the root directory of source files
+    "strict": true,            // Enable all strict type-checking options
+    "esModuleInterop": true,   // Enables ES6 module emulation
+    "skipLibCheck": true       // Skip type checking of all declaration files (*.d.ts)
+  },
+  "include": ["src/**/*"],     // Include all files in src
+  "exclude": ["node_modules"]  // Exclude the node_modules directory
+}
